@@ -63,18 +63,19 @@ def md2pypi(filename):
     return content
 
 
-name = "rdflib-jsonld"
+name = "rdflib-jsonld-without-2to3"
 version = __import__("rdflib_jsonld").__version__
 
 
 setup(
     name=name,
     version=version,
-    description="rdflib extension adding JSON-LD parser and serializer",
+    description=("rdflib extension adding JSON-LD parser and serializer"
+                 " (without 2to3)"),
     long_description=md2pypi("README.md"),
-    maintainer="RDFLib Team",
-    maintainer_email="rdflib-dev@google.com",
-    url="https://github.com/RDFLib/rdflib-jsonld",
+    maintainer="None",
+    maintainer_email="none@notmaintained.logilab.fr",
+    url="https://github.com/logilab/rdflib-jsonld-without-2to3",
     license="BSD",
     packages=["rdflib_jsonld"],
     zip_safe=False,

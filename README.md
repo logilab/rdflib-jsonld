@@ -1,9 +1,11 @@
 # RDFLib plugin providing JSON-LD parsing and serialization
 
 ## ARCHIVED
-*The 0.6.0 release of this tool is a tombstoning release. As of 2021-07-21, JSON-LD handling capability has been merged into the rdflib core [RDFLib](https://github.com/RDFLib/rdflib) in its 6.0.0 release.*
+*The 0.7.0 release of this tool is a come back of rdflib-jsonld without use_2to3 usage. We needed this package to be published on pypi to provide a smooth migration path when upgrading cubicweb to rdflib 6.0.*
 
-*Please stop using this plugin as soon as you can and migrate to rdflib >= 6.0.0. We - maintainers - will be much more able to fix/enhance JSON-LD handing in rdflib core!*
+*As of 2021-07-21, JSON-LD handling capability has been merged into the rdflib core [RDFLib](https://github.com/RDFLib/rdflib) in its 6.0.0 release.*
+
+*Please stop using this plugin as soon as you can and migrate to rdflib >= 6.0.0.*
 
 *If you are forced to keep using Python <= 3.6, you will need to keep using this plugin with RDFlib 5.0.0.*
 
